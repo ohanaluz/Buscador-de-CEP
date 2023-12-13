@@ -1,81 +1,70 @@
-//English
-React CEP Locator System
-Welcome to the React CEP Locator System! This system is designed to help you retrieve location information based on a Brazilian CEP (Postal Code). The entire website is developed in Portuguese to cater to the local audience.
+# Getting Started with Create React App
 
-Features
-CEP Search: Enter a valid CEP in the input field to retrieve information about the corresponding location.
-Responsive Design: The system is designed to work seamlessly on various devices, including desktops, tablets, and mobile phones.
-User-Friendly Interface: The interface is simple and intuitive, making it easy for users to navigate and find the information they need.
-Technologies Used
-React
-JavaScript
-HTML
-CSS
-Axios (for API requests)
-React Icons (for icon components)
-Getting Started
-Clone the Repository:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-bash
-Copy code
-git clone https://github.com/ohanaluz/Buscador-de-CEP
-cd react-cep-locator
-Install Dependencies:
+## Available Scripts
 
-bash
-Copy code
-npm install
-Run the Application:
+In the project directory, you can run:
 
-bash
-Copy code
-npm start
-The application will be accessible at http://localhost:3000 by default.
+### `npm start`
 
-Usage
-Enter a valid CEP in the input field.
-Click the search button.
-View the location information displayed on the main section.
-Feel free to explore the code and customize it according to your needs!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-//Português
-Sistema de Localização de CEP em React
-Bem-vindo ao Sistema de Localização de CEP em React! Este sistema foi desenvolvido para ajudar você a obter informações de localização com base em um CEP brasileiro. O site inteiro foi desenvolvido em português para atender ao público local.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Recursos
-Busca por CEP: Insira um CEP válido no campo de entrada para obter informações sobre a localização correspondente.
-Design Responsivo: O sistema foi projetado para funcionar perfeitamente em vários dispositivos, incluindo desktops, tablets e celulares.
-Interface Amigável: A interface é simples e intuitiva, facilitando a navegação e a busca de informações pelos usuários.
-Tecnologias Utilizadas
-React
-JavaScript
-HTML
-CSS
-Axios (para requisições à API)
-React Icons (para componentes de ícones)
-Como Começar
-Clone o Repositório:
+### `npm run build`
 
-bash
-Copy code
-git clone https://github.com/ohanaluz/Buscador-de-CEP
-cd react-cep-locator
-Instale as Dependências:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-bash
-Copy code
-npm install
-Execute a Aplicação:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-bash
-Copy code
-npm start
-A aplicação estará acessível em http://localhost:3000 por padrão.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Utilização
-Insira um CEP válido no campo de entrada.
-Clique no botão de busca.
-Visualize as informações de localização exibidas na seção principal.
-Sinta-se à vontade para explorar o código e personalizá-lo conforme suas necessidades!
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
