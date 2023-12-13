@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #4A4873;
+
+}
+
+.title{
+    font-size: 85px;
+    color: #F2C572;
+    font-family: 'DM Serif Display', serif;
+    animation: flipTitle 2s;
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(40deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+.containerInput{
+    background-color: #6D5DA6;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    border-radius: 6px;
+    
+  
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #F2C572;
+    outline: none;
+}
+
+.containerInput input::placeholder{
+    color: #f2c572bd;
+    font-style: italic;
+}
+
+.button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.main{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f2a579;
+    background-color: #6d5da659;
+    border-radius: 5px;
+    padding: 35px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.main h2{
+    font-size: 35px;
+    padding: 10px;
+    font-weight: lighter;
+
+}
+
+.title:hover{
+    color: #F2A679;
+    transition: 2s;
+    transition-delay: 0.2s;
+}
+
+.main span{
+    margin: 8px;
+    margin-top: 4px;
+    font-weight: 300;
+}
+
+.main:hover{
+    background-color: #6d5da6b9;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 635px)
+   { .title{
+        font-size: 70px;
+    }
+    .main{
+        font-size: smaller;
+        size: smaller;
+    }
+}
+
+
+
+    @media (max-width: 520px)
+   { .title{
+        font-size: 55px;
+    }
+    .main h2{
+        font-size: 25px;
+    }
+}
+
+    @media (max-width: 410px)
+    { .title{
+         font-size: 45px;
+     }}
